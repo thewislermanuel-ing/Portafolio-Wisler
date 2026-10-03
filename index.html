@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisler Espinales (24-EISN-8-013) | Full-Stack & AI Engineer Comic Portfolio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Blinker:wght@400;600;700;800&family=Comic+Neue:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Floating Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top comic-navbar py-2">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <i class="fa-solid fa-spider fa-2x text-danger me-2"></i>
+                <span class="comic-font fs-2 text-white text-uppercase" style="-webkit-text-stroke: 1px black;">
+                    WISLER <span style="color: var(--spider-blue);">ESPINALES</span>
+                </span>
+            </a>
+            <button class="navbar-toggler border-2 border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center gap-2">
+                    <li class="nav-item"><a class="nav-link" href="#hero">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">PODERES STACK</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">MISIONES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACTO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-vh-100 d-flex align-items-center pt-5 mt-4">
+        <div class="container py-5">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-7">
+                    <div class="comic-badge comic-badge-yellow mb-2 fs-5">
+                        <i class="fa-solid fa-id-card me-1"></i> MATRÍCULA: 24-EISN-8-013
+                    </div>
+                    <div class="comic-badge comic-badge-blue mb-3 fs-5">
+                        <i class="fa-solid fa-mask me-1"></i> FULL-STACK DEVELOPER & AI ENGINEER
+                    </div>
+                    <h1 class="display-2 fw-bold text-uppercase text-white mb-3" style="text-shadow: 4px 4px 0px var(--spider-red);">
+                        WISLER <span style="color: var(--spider-blue);">ESPINALES</span>
+                    </h1>
+                    
+                    <!-- Speech Bubble Biography -->
+                    <div class="speech-bubble mb-4">
+                        <p class="fs-5 mb-0">
+                            "¡Hola! Soy <strong>Wisler Espinales</strong>. Como desarrollador Web e Ingeniero en Sistemas, combino arquitecturas robustas y modelos inteligentes para resolver problemas complejos con la agilidad y precisión de un superhéroe."
+                        </p>
+                    </div>
+
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#projects" class="btn btn-comic-primary px-4 py-2">
+                            <i class="fa-solid fa-rocket me-2"></i>VER MISIONES
+                        </a>
+                        <a href="#contact" class="btn btn-comic-secondary px-4 py-2">
+                            <i class="fa-solid fa-envelope me-2"></i>ENVIAR SEÑAL
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 text-center">
+                    <div class="hero-avatar-frame mx-auto" style="max-width: 380px;">
+                        <img src="foto-jpg.jpeg" 
+                             alt="Wisler Espinales" 
+                             class="hero-avatar">
+                        <div class="position-absolute bottom-0 start-50 translate-middle-x mb-3 w-100 px-3">
+                            <div class="bg-dark text-warning comic-border py-1 px-3 d-inline-block fw-bold comic-font fs-4">
+                                WISLER ESPINALES #24-EISN-8-013
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="skills" class="py-5 bg-dark-secondary">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <span class="comic-badge comic-badge-yellow fs-5">ARSENAL TECNOLÓGICO</span>
+                <h2 class="display-4 text-white text-uppercase" style="text-shadow: 3px 3px 0px var(--spider-red);">
+                    TELARAÑA DE TECNOLOGÍAS
+                </h2>
+                <p class="text-muted">Pasa el cursor sobre las tarjetas para activar los sensores arácnidos de Spider-Web Canvas</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Python -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tech-card p-4 text-center h-100" id="tech-card-1">
+                        <canvas class="web-canvas"></canvas>
+                        <i class="fa-brands fa-python fa-3x text-warning mb-3"></i>
+                        <h3 class="fs-4 text-white">PYTHON</h3>
+                        <p class="small text-muted mb-0">Backend & AI Core</p>
+                    </div>
+                </div>
+
+                <!-- JavaScript -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tech-card p-4 text-center h-100" id="tech-card-2">
+                        <canvas class="web-canvas"></canvas>
+                        <i class="fa-brands fa-js fa-3x text-warning mb-3"></i>
+                        <h3 class="fs-4 text-white">JAVASCRIPT</h3>
+                        <p class="small text-muted mb-0">Frontend & Node</p>
+                    </div>
+                </div>
+
+                <!-- React -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tech-card p-4 text-center h-100" id="tech-card-3">
+                        <canvas class="web-canvas"></canvas>
+                        <i class="fa-brands fa-react fa-3x text-info mb-3"></i>
+                        <h3 class="fs-4 text-white">REACT</h3>
+                        <p class="small text-muted mb-0">UI Interactivas</p>
+                    </div>
+                </div>
+
+                <!-- Node.js -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tech-card p-4 text-center h-100" id="tech-card-4">
+                        <canvas class="web-canvas"></canvas>
+                        <i class="fa-brands fa-node-js fa-3x text-success mb-3"></i>
+                        <h3 class="fs-4 text-white">NODE.JS</h3>
+                        <p class="small text-muted mb-0">Servicios Escalables</p>
+                    </div>
+                </div>
+
+                <!-- TensorFlow -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tech-card p-4 text-center h-100" id="tech-card-5">
+                        <canvas class="web-canvas"></canvas>
+                        <i class="fa-solid fa-brain fa-3x text-danger mb-3"></i>
+                        <h3 class="fs-4 text-white">TENSORFLOW</h3>
+                        <p class="small text-muted mb-0">Deep Learning</p>
+                    </div>
+                </div>
+
+                <!-- PyTorch -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tech-card p-4 text-center h-100" id="tech-card-6">
+                        <canvas class="web-canvas"></canvas>
+                        <i class="fa-solid fa-fire fa-3x text-danger mb-3"></i>
+                        <h3 class="fs-4 text-white">PYTORCH</h3>
+                        <p class="small text-muted mb-0">Modelos de IA</p>
+                    </div>
+                </div>
+
+                <!-- SQL -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tech-card p-4 text-center h-100" id="tech-card-7">
+                        <canvas class="web-canvas"></canvas>
+                        <i class="fa-solid fa-database fa-3x text-primary mb-3"></i>
+                        <h3 class="fs-4 text-white">SQL</h3>
+                        <p class="small text-muted mb-0">Bases de Datos</p>
+                    </div>
+                </div>
+
+                <!-- Docker -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tech-card p-4 text-center h-100" id="tech-card-8">
+                        <canvas class="web-canvas"></canvas>
+                        <i class="fa-brands fa-docker fa-3x text-info mb-3"></i>
+                        <h3 class="fs-4 text-white">DOCKER</h3>
+                        <p class="small text-muted mb-0">Contenedores</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-4">
+                <span class="comic-badge comic-badge-blue fs-5">EXPEDIENTES ARCHIVADOS</span>
+                <h2 class="display-4 text-white text-uppercase" style="text-shadow: 3px 3px 0px var(--ink-black);">
+                    MISIONES COMPLETADAS
+                </h2>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="d-flex justify-content-center flex-wrap gap-2 mb-5">
+                <button class="btn btn-comic-primary filter-btn active" data-filter="all">TODAS</button>
+                <button class="btn btn-comic-secondary filter-btn" data-filter="ai">IA / ML</button>
+                <button class="btn btn-comic-secondary filter-btn" data-filter="fullstack">FULL-STACK</button>
+                <button class="btn btn-comic-secondary filter-btn" data-filter="mobile">MOBILE</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="row g-4" id="projects-grid">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4 project-item" data-category="ai">
+                    <div class="project-card h-100 d-flex flex-column">
+                        <div class="project-img-container">
+                            <span class="project-category-tag">IA / ML</span>
+                            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop" 
+                                 class="project-img" alt="Spider Vision AI"
+                                 onerror="this.src='https://placehold.co/600x400/1a1e2d/FCD116?text=Spider+Vision+AI'">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h3 class="fs-3 text-white">SPIDER-SENSE VISION AI</h3>
+                            <p class="text-muted flex-grow-1" style="font-family: 'Comic Neue', cursive;">
+                                Sistema de detección de patrones y objetos en tiempo real con PyTorch y Computer Vision.
+                            </p>
+                            <div class="d-flex gap-2 mb-3">
+                                <span class="badge bg-dark border border-info">Python</span>
+                                <span class="badge bg-dark border border-info">PyTorch</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-comic-primary btn-sm flex-fill"><i class="fa-solid fa-globe me-1"></i>DEMO</a>
+                                <a href="#" class="btn btn-comic-secondary btn-sm flex-fill"><i class="fa-brands fa-github me-1"></i>CÓDIGO</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4 project-item" data-category="fullstack">
+                    <div class="project-card h-100 d-flex flex-column">
+                        <div class="project-img-container">
+                            <span class="project-category-tag">FULL-STACK</span>
+                            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop" 
+                                 class="project-img" alt="Daily Bugle CMS"
+                                 onerror="this.src='https://placehold.co/600x400/1a1e2d/E62429?text=Daily+Bugle+Portal'">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h3 class="fs-3 text-white">DAILY BUGLE CMS</h3>
+                            <p class="text-muted flex-grow-1" style="font-family: 'Comic Neue', cursive;">
+                                Portal de noticias de alta disponibilidad con React, Node.js y actualización en tiempo real.
+                            </p>
+                            <div class="d-flex gap-2 mb-3">
+                                <span class="badge bg-dark border border-danger">React</span>
+                                <span class="badge bg-dark border border-danger">Node.js</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-comic-primary btn-sm flex-fill"><i class="fa-solid fa-globe me-1"></i>DEMO</a>
+                                <a href="#" class="btn btn-comic-secondary btn-sm flex-fill"><i class="fa-brands fa-github me-1"></i>CÓDIGO</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4 project-item" data-category="mobile">
+                    <div class="project-card h-100 d-flex flex-column">
+                        <div class="project-img-container">
+                            <span class="project-category-tag">MOBILE</span>
+                            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=800&auto=format&fit=crop" 
+                                 class="project-img" alt="Web Shooter Mobile"
+                                 onerror="this.src='https://placehold.co/600x400/1a1e2d/00d2ff?text=Web+Shooter+App'">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h3 class="fs-3 text-white">WEB-SHOOTER APP</h3>
+                            <p class="text-muted flex-grow-1" style="font-family: 'Comic Neue', cursive;">
+                                Aplicación móvil con simulación de métricas, geolocalización y monitoreo de dispositivos.
+                            </p>
+                            <div class="d-flex gap-2 mb-3">
+                                <span class="badge bg-dark border border-warning">React Native</span>
+                                <span class="badge bg-dark border border-warning">JavaScript</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-comic-primary btn-sm flex-fill"><i class="fa-solid fa-globe me-1"></i>DEMO</a>
+                                <a href="#" class="btn btn-comic-secondary btn-sm flex-fill"><i class="fa-brands fa-github me-1"></i>CÓDIGO</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark-secondary">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-box p-4 p-md-5">
+                        <div class="text-center mb-4">
+                            <span class="comic-badge comic-badge-yellow fs-5">AMIGABLE VECINO</span>
+                            <h2 class="display-4 text-white text-uppercase" style="text-shadow: 3px 3px 0px var(--spider-red);">
+                                ¿NECESITAS UN INGENIERO DE SOFTWARE?
+                            </h2>
+                            <p class="text-muted fs-5" style="font-family: 'Comic Neue', cursive;">
+                                Ponte en contacto con Wisler Espinales para coordinar la siguiente misión.
+                            </p>
+                        </div>
+
+                        <form id="spider-contact-form" onsubmit="handleFormSubmit(event)">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label comic-font fs-5 text-white">TU NOMBRE / EMPRESA</label>
+                                    <input type="text" class="form-control form-control-comic p-3" placeholder="Ej. Oscorp Labs" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label comic-font fs-5 text-white">CORREO ELECTRÓNICO</label>
+                                    <input type="email" class="form-control form-control-comic p-3" placeholder="contacto@oscorp.com" required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label comic-font fs-5 text-white">DETALLES DEL PROYECTO</label>
+                                    <textarea class="form-control form-control-comic p-3" rows="4" placeholder="Escribe aquí los detalles del sistema o modelo de IA..." required></textarea>
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button type="submit" class="btn btn-comic-primary fs-3 px-5 py-2 w-100">
+                                        <i class="fa-solid fa-paper-plane me-2"></i>ENVIAR MENSAJE DE ARÁCNIDO
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="form-response-msg" class="mt-4 text-center d-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 border-top border-danger bg-dark">
+        <div class="container text-center">
+            <div class="d-flex justify-content-center gap-4 mb-3">
+                <a href="#" class="text-white fs-3"><i class="fa-brands fa-github hover-bounce"></i></a>
+                <a href="#" class="text-white fs-3"><i class="fa-brands fa-linkedin hover-bounce"></i></a>
+                <a href="#" class="text-white fs-3"><i class="fa-brands fa-x-twitter hover-bounce"></i></a>
+                <a href="mailto:wisler@example.com" class="text-white fs-3"><i class="fa-solid fa-envelope hover-bounce"></i></a>
+            </div>
+            <p class="text-muted mb-0 comic-font fs-5">
+                © 2026 WISLER ESPINALES (24-EISN-8-013). DESARROLLADO CON PURE POWER & SPIDER-SENSE.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="btn-back-to-top" title="Volver Arriba">
+        <i class="fa-solid fa-spider fs-3"></i>
+    </button>
+    <div id="web-line" class="web-shooter-line"></div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
